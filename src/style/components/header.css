@@ -1,0 +1,38 @@
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    min-height: 30px;
+    max-height: max-content;
+    justify-content: space-around;
+    font-size: 18px;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    transition: .5s;
+    z-index: 1;
+    font-family: "Montserrat";
+  }
+  .logo-app{
+    display: flex;
+    align-items: center;
+    color: rgb(90, 149, 253);
+  }
+  .logo-app h2{
+    margin-left: 20px;
+  }
+  .header h2{
+    color: rgb(61, 144, 222);
+  }
+  .navBar{
+    display: flex;
+  }
+  .hidden{
+    display: none;
+  }
+  .logo-menu{
+    display: none;
+  }
+  .header p{
+    margin: 11px;
+  }
